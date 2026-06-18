@@ -71,4 +71,10 @@ Jellyfin Web is the frontend used for most of the clients available for end user
    npm run build:development
    ```
 
+### Alternative docker build
+
+```bash
+docker build --output=dist --target=dist .
+```
+
 Review the [Contributing Guide](./CONTRIBUTING.md) for more information on our process and tech stack.
